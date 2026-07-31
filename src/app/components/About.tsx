@@ -18,7 +18,7 @@ const links = [
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:tpiyush2003@gmail.com",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=tpiyush2003@gmail.com",
     color: "var(--neon-emerald)",
   },
   {

@@ -1,5 +1,5 @@
 // components/TechStack.tsx
-import { motion } from "motion/react";
+import { motion } from "motion/react";  
 
 const techStack = {
   "Languages & Data": {
@@ -7,7 +7,7 @@ const techStack = {
     color: "var(--neon-violet)",
   },
   "AI & LLMs": {
-    items: ["LangChain", "RAG", "OpenAI API", "Ollama", "Whisper", "Prompt Engineering"],
+    items: [ "RAG", "OpenAI API", "Ollama", "Whisper", "Prompt Engineering"],
     color: "var(--neon-indigo)",
   },
   "ML & DL": {
@@ -15,7 +15,7 @@ const techStack = {
     color: "var(--neon-sky)",
   },
   "Data Visualization": {
-    items: ["Matplotlib", "Seaborn", "Power BI (Basic)", "Jupyter", "Google Colab"],
+    items: ["Matplotlib", "Seaborn",  "Jupyter", "Google Colab"],
     color: "var(--neon-emerald)",
   },
   "Automation & Tools": {

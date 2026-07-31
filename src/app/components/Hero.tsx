@@ -92,8 +92,8 @@ export function Hero({ onViewProjects }: HeroProps) {
         color: "var(--neon-emerald)",
       },
       {
-        value: "1+",
-        label: "Years Exp",
+        value: "4+",
+        label: "Months Exp",
         color: "var(--neon-sky)",
       },
     ],
@@ -227,21 +227,7 @@ export function Hero({ onViewProjects }: HeroProps) {
           {/* ── Text ── */}
           <div className="flex-1 text-center lg:text-left">
             {/* Badge */}
-            <motion.div
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border mb-6"
-              style={{
-                background: "rgba(124,58,237,0.08)",
-                borderColor: "rgba(124,58,237,0.3)",
-              }}
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <Sparkles className="w-3 h-3 text-[var(--neon-violet)]" />
-              <span className="text-[11px] font-mono text-[var(--neon-violet)] tracking-wider">
-                B.Tech ECE • Arya College, Jaipur
-              </span>
-            </motion.div>
+          
 
             {/* Name */}
             <motion.h1

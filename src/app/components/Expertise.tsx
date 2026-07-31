@@ -14,9 +14,9 @@ const expertiseAreas = [
     icon: Brain,
     title: "LLMs & RAG Systems",
     description:
-      "Building end-to-end RAG pipelines with semantic search, vector embeddings, and LLM-powered responses. Hands-on with LangChain, Ollama, OpenAI, and Pinecone for production-grade AI retrieval.",
+      "Building end-to-end RAG pipelines with semantic search, vector embeddings, and LLM-powered responses. Hands-on with Ollama, OpenAI, and Pinecone for production-grade AI retrieval.",
     color: "var(--neon-violet)",
-    tags: ["LangChain", "RAG", "Pinecone", "OpenAI"],
+    tags: [ "RAG", "Pinecone", "OpenAI"],
   },
   {
     icon: Workflow,

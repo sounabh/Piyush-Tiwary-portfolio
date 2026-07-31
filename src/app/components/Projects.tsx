@@ -43,7 +43,7 @@ const projects = [
     gradient: "from-amber-500 to-orange-500",
     glowColor: "rgba(245,158,11,0.3)",
     github: "https://github.com/piyushTIWARI-786/House-Price-Prediction-Model",
-    featured: false,
+    featured: true,
   },
 ];
 
