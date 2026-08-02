@@ -30,7 +30,7 @@ const expertiseAreas = [
     icon: Database,
     title: "Machine Learning",
     description:
-      "Building and evaluating ML regression and classification pipelines with Scikit-learn, including data preprocessing, feature engineering, hyperparameter tuning, and RMSE-optimized models.",
+      "Building and evaluating ML pipelines with Scikit-learn, including data preprocessing, feature engineering, hyperparameter tuning, and RMSE-optimized models.",
     color: "var(--neon-sky)",
     tags: ["Scikit-learn", "Random Forest", "Regression"],
   },

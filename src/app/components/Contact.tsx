@@ -122,27 +122,7 @@ export function Contact() {
           })}
         </div>
 
-        {/* CTA */}
-        <motion.div
-          className="text-center"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-        >
-          <a
-            href="mailto:tpiyush2003@gmail.com"
-            className="group inline-flex items-center gap-3 px-10 py-5 rounded-2xl transition-all duration-300 hover:scale-105 font-semibold text-lg"
-            style={{
-              background:
-                "linear-gradient(135deg, var(--neon-violet), var(--neon-indigo))",
-              boxShadow: "0 0 40px rgba(124,58,237,0.4)",
-            }}
-          >
-            <span className="text-white">Send a Message</span>
-            <Send className="w-5 h-5 text-white transition-transform group-hover:translate-x-1" />
-          </a>
-        </motion.div>
+     
       </div>
 
       {/* Footer */}

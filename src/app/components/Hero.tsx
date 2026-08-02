@@ -1,7 +1,10 @@
 import { motion } from "motion/react";
-import { ChevronDown, Sparkles, ArrowRight } from "lucide-react";
+import { ChevronDown, Sparkles, ArrowRight ,  FileText} from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import profilePhoto from "../../imports/pfp.jpg";
+
+
+
 
 interface HeroProps {
   onViewProjects: () => void;
@@ -81,7 +84,7 @@ export function Hero({ onViewProjects }: HeroProps) {
   const stats = useMemo(
     () => [
       {
-        value: "3+",
+        value: "10+",
         label: "Projects",
         color: "var(--neon-violet)",
       },
@@ -354,18 +357,36 @@ export function Hero({ onViewProjects }: HeroProps) {
                 <ArrowRight className="relative w-4 h-4 text-white transition-transform group-hover:translate-x-0.5" />
               </button>
 
-              <a
-                href="mailto:tpiyush2003@gmail.com"
-                className="group px-7 py-3 rounded-xl flex items-center justify-center gap-2 font-semibold transition-all duration-300 hover:scale-105 text-sm border"
-                style={{
-                  background: "rgba(255,255,255,0.03)",
-                  borderColor: "rgba(124,58,237,0.35)",
-                }}
-              >
-                <span className="text-white group-hover:text-[var(--neon-violet)] transition-colors">
-                  Get In Touch
-                </span>
-              </a>
+             <a
+  href="/PiyushResumebj.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group relative px-7 py-3 rounded-xl flex items-center justify-center gap-2 font-semibold transition-all duration-300 hover:scale-105 text-sm border overflow-hidden"
+  style={{
+    background: "rgba(255,255,255,0.03)",
+    borderColor: "rgba(124,58,237,0.35)",
+    backdropFilter: "blur(12px)",
+  }}
+>
+  <span
+    className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-out"
+    style={{
+      background:
+        "linear-gradient(115deg, transparent 30%, rgba(255,255,255,0.18) 50%, transparent 70%)",
+    }}
+  />
+
+  <FileText
+    className="relative w-4 h-4 transition-all duration-300 group-hover:scale-110"
+    style={{ color: "var(--neon-violet)" }}
+  />
+
+  <span className="relative text-white group-hover:text-[var(--neon-violet)] transition-colors">
+    View Resume
+  </span>
+
+  <ArrowRight className="relative w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+</a>
             </motion.div>
 
             {/* Skills */}

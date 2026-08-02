@@ -45,6 +45,20 @@ const projects = [
     github: "https://github.com/piyushTIWARI-786/House-Price-Prediction-Model",
     featured: true,
   },
+  {
+  title: "Social Media Recommendation Engine",
+  subtitle: "Personalized Content Recommender",
+  period: "March 2026",
+  problem:
+    "Built a recommendation engine that personalizes social content by analyzing user profiles, bios, and activity signals to surface more relevant matches and recommendations.",
+  stack: ["Python", "Machine Learning", "Recommendation Systems", "NLP", "Embeddings"],
+  impact:
+    "Focused on improving personalization by transforming user data into meaningful similarity signals for smarter content recommendations.",
+  gradient: "from-cyan-500 to-blue-500",
+  glowColor: "rgba(14,165,233,0.3)",
+  github: "https://github.com/piyushTIWARI-786/Social-Media-Recommendation-Engine",
+  featured: true,
+},
 ];
 
 export function Projects() {
