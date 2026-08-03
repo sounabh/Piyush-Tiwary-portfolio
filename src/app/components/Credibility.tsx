@@ -9,7 +9,7 @@ const metrics = [
     icon: TrendingUp,
     value: "8.0",
     label: "B.Tech CGPA",
-    description: "Electronics & Communication Engineering, Arya College Jaipur",
+    description: "Electronics & Communication Engineering, Rajasthan Technical University (Kota)",
     color: "var(--neon-violet)",
   },
   {

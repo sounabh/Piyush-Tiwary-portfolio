@@ -138,7 +138,7 @@ export function About() {
                 <span className="text-[var(--neon-violet)]">
                   B.Tech in Electronics & Communication Engineering
                 </span>{" "}
-                at Arya College of Engineering and IT, Jaipur (CGPA: 8.0).
+                at Rajasthan Technical University (Kota) (CGPA: 8.0).
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed mb-5">
@@ -177,7 +177,7 @@ export function About() {
                     B.Tech — Electronics & Communication Engineering
                   </p>
                   <p className="text-gray-400 text-sm">
-                    Arya College of Engineering & IT, Jaipur • 2022–2026 • CGPA: 8.0
+                    Rajasthan Technical University (Kota) • 2022–2026 • CGPA: 8.0
                   </p>
                 </div>
               </div>
