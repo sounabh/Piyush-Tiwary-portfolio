@@ -95,7 +95,7 @@ export function Hero({ onViewProjects }: HeroProps) {
         color: "var(--neon-emerald)",
       },
       {
-        value: "4+",
+        value: "6+",
         label: "Months Exp",
         color: "var(--neon-sky)",
       },
